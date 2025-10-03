@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JTGeats - Authentic Home Cooked Food</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="navbar container">
+            <div class="logo">JTGeats</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <i class="fas fa-search"></i>
+                <div class="cart-icon">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count">0</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section" style="background-color: #1AC073;">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>Authentic Home food in India</h1>
+                    <p>JTGeats is a courier service in which authentic home cook food is delivered to a customer.</p>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search food you love">
+                        <button style="background-color: #F3BA00;">Search</button>
+                    </div>
+                </div>
+                <div class="hero-illustration">
+                    <img src="cook.png" alt="Chef cooking home food" style="max-width: 600px; height: auto; display: block; margin: 0 auto;">
+                </div>
+            </div>
+        </section>
+
+        
+
+        <section id="menu" class="kitchen-section" style="background-color: #FFFFFF;">
+            <div class="container">
+                <h2>Home Kitchen</h2>
+                <div class="kitchen-grid">
+                    <!-- Dynamically added food cards for all PNG images except cook.png and delivery_boy.png -->
+                    <article class="food-card">
+                        <img src="Gemini_Generated_Image_t8mg8tt8mg8tt8mg.png" alt="Gemini Generated Food 1">
+                        <div class="card-info">
+                            <span class="discount-badge">10%</span>
+                            <h4>Special Dish 1</h4>
+                            <div class="details">
+                                <span class="price">₹199</span>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i> 4.5 (20-30 min)
+                                </div>
+                            </div>
+                            <button class="add-to-cart"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </article>
+                    <article class="food-card">
+                        <img src="Gemini_Generated_Image_t8mg8tt8mg8tt8mg (1).png" alt="Gemini Generated Food 2">
+                        <div class="card-info">
+                            <span class="discount-badge">10%</span>
+                            <h4>Special Dish 2</h4>
+                            <div class="details">
+                                <span class="price">₹209</span>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i> 4.6 (25-35 min)
+                                </div>
+                            </div>
+                            <button class="add-to-cart"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </article>
+                    <article class="food-card">
+                        <img src="Gemini_Generated_Image_t8mg8tt8mg8tt8mg (2).png" alt="Gemini Generated Food 3">
+                        <div class="card-info">
+                            <span class="discount-badge">10%</span>
+                            <h4>Special Dish 3</h4>
+                            <div class="details">
+                                <span class="price">₹189</span>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i> 4.4 (18-28 min)
+                                </div>
+                            </div>
+                            <button class="add-to-cart"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </article>
+                    <article class="food-card">
+                        <img src="Gemini_Generated_Image_t8mg8tt8mg8tt8mg (3).png" alt="Gemini Generated Food 4">
+                        <div class="card-info">
+                            <span class="discount-badge">10%</span>
+                            <h4>Special Dish 4</h4>
+                            <div class="details">
+                                <span class="price">₹179</span>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i> 4.3 (22-32 min)
+                                </div>
+                            </div>
+                            <button class="add-to-cart"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </article>
+                    <article class="food-card">
+                        <img src="Gemini_Generated_Image_t8mg8tt8mg8tt8mg (4).png" alt="Gemini Generated Food 5">
+                        <div class="card-info">
+                            <span class="discount-badge">10%</span>
+                            <h4>Special Dish 5</h4>
+                            <div class="details">
+                                <span class="price">₹215</span>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i> 4.7 (30-40 min)
+                                </div>
+                            </div>
+                            <button class="add-to-cart"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </article>
+                    <article class="food-card">
+                        <img src="Gemini_Generated_Image_t8mg8tt8mg8tt8mg (5).png" alt="Gemini Generated Food 6">
+                        <div class="card-info">
+                            <span class="discount-badge">10%</span>
+                            <h4>Special Dish 6</h4>
+                            <div class="details">
+                                <span class="price">₹205</span>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i> 4.2 (15-25 min)
+                                </div>
+                            </div>
+                            <button class="add-to-cart"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </article>
+                    <article class="food-card">
+                        <img src="Gemini_Generated_Image_t8mg8tt8mg8tt8mg (6).png" alt="Gemini Generated Food 7">
+                        <div class="card-info">
+                            <span class="discount-badge">10%</span>
+                            <h4>Special Dish 7</h4>
+                            <div class="details">
+                                <span class="price">₹195</span>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i> 4.1 (20-30 min)
+                                </div>
+                            </div>
+                            <button class="add-to-cart"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </article>
+                    <article class="food-card">
+                        <img src="Gemini_Generated_Image_t8mg8tt8mg8tt8mg (7).png" alt="Gemini Generated Food 8">
+                        <div class="card-info">
+                            <span class="discount-badge">10%</span>
+                            <h4>Special Dish 8</h4>
+                            <div class="details">
+                                <span class="price">₹210</span>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i> 4.8 (28-38 min)
+                                </div>
+                            </div>
+                            <button class="add-to-cart"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </article>
+                    <article class="food-card">
+                        <img src="Gemini_Generated_Image_t8mg8tt8mg8tt8mg (8).png" alt="Gemini Generated Food 9">
+                        <div class="card-info">
+                            <span class="discount-badge">10%</span>
+                            <h4>Special Dish 9</h4>
+                            <div class="details">
+                                <span class="price">₹220</span>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i> 4.9 (35-45 min)
+                                </div>
+                            </div>
+                            <button class="add-to-cart"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </article>
+                    <article class="food-card">
+                        <img src="Gemini_Generated_Image_t8mg8tt8mg8tt8mg (9).png" alt="Gemini Generated Food 10">
+                        <div class="card-info">
+                            <span class="discount-badge">10%</span>
+                            <h4>Special Dish 10</h4>
+                            <div class="details">
+                                <span class="price">₹225</span>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i> 5.0 (40-50 min)
+                                </div>
+                            </div>
+                            <button class="add-to-cart"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </article>
+                    </div>
+
+                <h2 class="popular-heading">Popular Items</h2>
+                <div class="carousel-container">
+                    <div class="carousel-nav prev-btn"><i class="fas fa-chevron-left"></i></div>
+                    <div class="carousel-track">
+                        <!-- Carousel items: all PNG images except cook.png and delivery_boy.png -->
+                        <article class="food-card carousel-item">
+                            <img src="Gemini_Generated_Image_t8mg8tt8mg8tt8mg.png" alt="Gemini Generated Food 1">
+                            <div class="card-info">
+                                <span class="discount-badge">10%</span>
+                                <h4>Special Dish 1</h4>
+                                <div class="details">
+                                    <span class="price">₹199</span>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i> 4.5 (20-30 min)
+                                    </div>
+                                </div>
+                                <div class="controls">
+                                    <div class="quantity-control">
+                                        <button class="qty-minus">-</button>
+                                        <input type="text" value="1" readonly class="qty-display">
+                                        <button class="qty-plus">+</button>
+                                    </div>
+                                    <button class="add-to-cart add-to-cart-yellow"><i class="fas fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="food-card carousel-item">
+                            <img src="Gemini_Generated_Image_t8mg8tt8mg8tt8mg (1).png" alt="Gemini Generated Food 2">
+                            <div class="card-info">
+                                <span class="discount-badge">10%</span>
+                                <h4>Special Dish 2</h4>
+                                <div class="details">
+                                    <span class="price">₹209</span>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i> 4.6 (25-35 min)
+                                    </div>
+                                </div>
+                                <div class="controls">
+                                    <div class="quantity-control">
+                                        <button class="qty-minus">-</button>
+                                        <input type="text" value="1" readonly class="qty-display">
+                                        <button class="qty-plus">+</button>
+                                    </div>
+                                    <button class="add-to-cart add-to-cart-yellow"><i class="fas fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="food-card carousel-item">
+                            <img src="Gemini_Generated_Image_t8mg8tt8mg8tt8mg (2).png" alt="Gemini Generated Food 3">
+                            <div class="card-info">
+                                <span class="discount-badge">10%</span>
+                                <h4>Special Dish 3</h4>
+                                <div class="details">
+                                    <span class="price">₹189</span>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i> 4.4 (18-28 min)
+                                    </div>
+                                </div>
+                                <div class="controls">
+                                    <div class="quantity-control">
+                                        <button class="qty-minus">-</button>
+                                        <input type="text" value="1" readonly class="qty-display">
+                                        <button class="qty-plus">+</button>
+                                    </div>
+                                    <button class="add-to-cart add-to-cart-yellow"><i class="fas fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="food-card carousel-item">
+                            <img src="Gemini_Generated_Image_t8mg8tt8mg8tt8mg (3).png" alt="Gemini Generated Food 4">
+                            <div class="card-info">
+                                <span class="discount-badge">10%</span>
+                                <h4>Special Dish 4</h4>
+                                <div class="details">
+                                    <span class="price">₹179</span>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i> 4.3 (22-32 min)
+                                    </div>
+                                </div>
+                                <div class="controls">
+                                    <div class="quantity-control">
+                                        <button class="qty-minus">-</button>
+                                        <input type="text" value="1" readonly class="qty-display">
+                                        <button class="qty-plus">+</button>
+                                    </div>
+                                    <button class="add-to-cart add-to-cart-yellow"><i class="fas fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="food-card carousel-item">
+                            <img src="Gemini_Generated_Image_t8mg8tt8mg8tt8mg (4).png" alt="Gemini Generated Food 5">
+                            <div class="card-info">
+                                <span class="discount-badge">10%</span>
+                                <h4>Special Dish 5</h4>
+                                <div class="details">
+                                    <span class="price">₹215</span>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i> 4.7 (30-40 min)
+                                    </div>
+                                </div>
+                                <div class="controls">
+                                    <div class="quantity-control">
+                                        <button class="qty-minus">-</button>
+                                        <input type="text" value="1" readonly class="qty-display">
+                                        <button class="qty-plus">+</button>
+                                    </div>
+                                    <button class="add-to-cart add-to-cart-yellow"><i class="fas fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="food-card carousel-item">
+                            <img src="Gemini_Generated_Image_t8mg8tt8mg8tt8mg (5).png" alt="Gemini Generated Food 6">
+                            <div class="card-info">
+                                <span class="discount-badge">10%</span>
+                                <h4>Special Dish 6</h4>
+                                <div class="details">
+                                    <span class="price">₹205</span>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i> 4.2 (15-25 min)
+                                    </div>
+                                </div>
+                                <div class="controls">
+                                    <div class="quantity-control">
+                                        <button class="qty-minus">-</button>
+                                        <input type="text" value="1" readonly class="qty-display">
+                                        <button class="qty-plus">+</button>
+                                    </div>
+                                    <button class="add-to-cart add-to-cart-yellow"><i class="fas fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="food-card carousel-item">
+                            <img src="Gemini_Generated_Image_t8mg8tt8mg8tt8mg (6).png" alt="Gemini Generated Food 7">
+                            <div class="card-info">
+                                <span class="discount-badge">10%</span>
+                                <h4>Special Dish 7</h4>
+                                <div class="details">
+                                    <span class="price">₹195</span>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i> 4.1 (20-30 min)
+                                    </div>
+                                </div>
+                                <div class="controls">
+                                    <div class="quantity-control">
+                                        <button class="qty-minus">-</button>
+                                        <input type="text" value="1" readonly class="qty-display">
+                                        <button class="qty-plus">+</button>
+                                    </div>
+                                    <button class="add-to-cart add-to-cart-yellow"><i class="fas fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="food-card carousel-item">
+                            <img src="Gemini_Generated_Image_t8mg8tt8mg8tt8mg (7).png" alt="Gemini Generated Food 8">
+                            <div class="card-info">
+                                <span class="discount-badge">10%</span>
+                                <h4>Special Dish 8</h4>
+                                <div class="details">
+                                    <span class="price">₹210</span>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i> 4.8 (28-38 min)
+                                    </div>
+                                </div>
+                                <div class="controls">
+                                    <div class="quantity-control">
+                                        <button class="qty-minus">-</button>
+                                        <input type="text" value="1" readonly class="qty-display">
+                                        <button class="qty-plus">+</button>
+                                    </div>
+                                    <button class="add-to-cart add-to-cart-yellow"><i class="fas fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="food-card carousel-item">
+                            <img src="Gemini_Generated_Image_t8mg8tt8mg8tt8mg (8).png" alt="Gemini Generated Food 9">
+                            <div class="card-info">
+                                <span class="discount-badge">10%</span>
+                                <h4>Special Dish 9</h4>
+                                <div class="details">
+                                    <span class="price">₹220</span>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i> 4.9 (35-45 min)
+                                    </div>
+                                </div>
+                                <div class="controls">
+                                    <div class="quantity-control">
+                                        <button class="qty-minus">-</button>
+                                        <input type="text" value="1" readonly class="qty-display">
+                                        <button class="qty-plus">+</button>
+                                    </div>
+                                    <button class="add-to-cart add-to-cart-yellow"><i class="fas fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="food-card carousel-item">
+                            <img src="Gemini_Generated_Image_t8mg8tt8mg8tt8mg (9).png" alt="Gemini Generated Food 10">
+                            <div class="card-info">
+                                <span class="discount-badge">10%</span>
+                                <h4>Special Dish 10</h4>
+                                <div class="details">
+                                    <span class="price">₹225</span>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i> 5.0 (40-50 min)
+                                    </div>
+                                </div>
+                                <div class="controls">
+                                    <div class="quantity-control">
+                                        <button class="qty-minus">-</button>
+                                        <input type="text" value="1" readonly class="qty-display">
+                                        <button class="qty-plus">+</button>
+                                    </div>
+                                    <button class="add-to-cart add-to-cart-yellow"><i class="fas fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="carousel-nav next-btn"><i class="fas fa-chevron-right"></i></div>
+                </div>
+
+                <div class="text-center request-dish-wrapper">
+                    <button id="openRequestModal" class="primary-button">Request a Dish</button>
+                </div>
+            </div>
+        </section>
+        <!-- Services Section with Video -->
+   <section id="services" class="services-section">
+    <div class="container text-center">
+        <h2 class="section-heading" style="font-weight: 800; color: #232b3a; margin-bottom: 0.5rem; letter-spacing: 0.01em;">
+            We are providing best<br>home cooked food delivery service.
+        </h2>
+        <p class="section-subtext" style="font-size: 1.05rem; color: #7a7a7a; margin-bottom: 2.5rem; font-weight: 400;">
+            Away from home and craving the tasty homemade recipes?<br>Choose from a selection of our delicious home cooked dishes
+        </p>
+    </div>
+    
+    <div class="video-section-inner-wrapper">
+    <div class="video-container">
+        <video id="servicesVideo" src="Video_Generation_With_Topping_Added.mp4" poster="service_video_poster.jpg">
+            Your browser does not support the video tag.
+        </video>
+        
+        <div id="servicesPlayIcon" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80px; height: 80px; background: #2fd180; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; box-shadow: 0 2px 12px rgba(0,0,0,0.10);">
+            <i class="fas fa-play"></i>
+            
+        </div>
+    </div>
+</div>
+</div>
+</section>
+        
+
+    <section id="contact" class="contact-section">
+            <div class="container contact-content">
+                <div class="contact-form-area">
+                    <h2>Do you have a question or want to become a seller?</h2>
+                    <p>Fill this form and our manager will contact you next 48 hours.</p>
+                    <form>
+                        <div class="form-group-row">
+                            <input type="text" placeholder="Your Name">
+                            <input type="email" placeholder="Your e-mail">
+                        </div>
+                        <textarea placeholder="Your message"></textarea>
+                        <button type="submit" class="primary-button" style="background-color: #1AC073;">Submit</button>
+                    </form>
+                </div>
+                <div class="contact-illustration">
+                    <img src="delivery_boy.png" alt="Delivery boy on scooter">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer" style="background-color: #1AC073;">
+    <div class="footer-container">
+        <div class="footer-logo">JTGeats</div>
+
+        <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        
+        <div class="footer-separator"></div>
+
+        <div class="footer-copyright">
+            <p>&copy; 2025 JTGeats. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+    <div id="requestDishModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3>Request a New Dish</h3>
+            <p>Tell us what home-cooked meal you're craving, and we'll see if we can add it to our menu!</p>
+            <form id="dishRequestForm">
+                <div class="form-group">
+                    <label for="dishName">Dish Name</label>
+                    <input type="text" id="dishName" required>
+                </div>
+                <div class="form-group">
+                    <label for="cuisine">Cuisine (e.g., Indian, Italian)</label>
+                    <input type="text" id="cuisine">
+                </div>
+                <div class="form-group">
+                    <label for="description">Why do you want this dish?</label>
+                    <textarea id="description" rows="3"></textarea>
+                </div>
+                <div class="modal-actions">
+                    <button type="button" id="cancelRequest" class="secondary-button">Cancel</button>
+                    <button type="submit" id="submitRequest" class="primary-button" style="background-color: #1AC073;">Submit Request</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+// Play/pause video with overlay play button for services section
+document.addEventListener('DOMContentLoaded', function() {
+    var servicesVideo = document.getElementById('servicesVideo');
+    var playIcon = document.getElementById('servicesPlayIcon');
+    const $iconElement = $playIconOverlay.find('i');
+    if (servicesVideo && playIcon) {
+        playIcon.addEventListener('click', function(e) {
+            e.stopPropagation();
+            servicesVideo.play();
+        });
+        servicesVideo.addEventListener('play', function() {
+            playIcon.style.display = 'none';
+        });
+        servicesVideo.addEventListener('pause', function() {
+            playIcon.style.display = '';
+        });
+        // Hide play icon if video is already playing
+        if (!servicesVideo.paused) playIcon.style.display = 'none';
+    }
+});
+</script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
